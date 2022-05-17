@@ -1,4 +1,6 @@
 //https://workat.tech/problem-solving/practice/longest-increasing-subsequence/editorial
+package dynamicProgramming;
+
 class LongestIncreasingSubsequence {
 	int getLengthOfLIS(int[] A) {
     	// add your logic here
