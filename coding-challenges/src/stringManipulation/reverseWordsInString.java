@@ -17,7 +17,6 @@ public class reverseWordsInString {
 	    	if(i!=0) {
 	    		reversed+= " ";
 	    	}
-	    	
 	    }
 	    
 	    return reversed;
