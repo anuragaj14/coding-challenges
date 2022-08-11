@@ -9,11 +9,12 @@ import java.util.stream.Collectors;
 public class ex9_Collectors {
 	public static void main(String[] args) throws IOException {
 	
-		List<String> bands = Files.lines(Paths.get("bands.txt"))
-		.filter(x->x.contains("jit"))
-		.collect(Collectors.toList());
+		List<String> list = Files.lines(Paths.get("bands.txt"))
+				.map(x->x.toLowerCase())
+				.filter(x->x.contains("jit"))
+				.collect(Collectors.toList());
 		
-		bands.forEach(x->System.out.println(x));
-	}
+		list.stream().forEach(System.out::println);
 
+	}
 }
