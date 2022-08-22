@@ -1,5 +1,5 @@
 package binaryTree;
-//https://workat.tech/problem-solving/practice/balanced-binary-tree
+//https://workat.tech/problem-solving/practice/balanced-binary-tree new
 public class BalancedBinaryTree {
 	class Node {
 		public Node left;
